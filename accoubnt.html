@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesab</title>
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="account-container">
+<div class="account-menu">
+    <ul class="acc-menu">
+       <li  onclick="accountInfo()"><i class="fas fa-info-circle"></i><a href="#">Şəxsi məlumatlar</a></li>
+       <li onclick="shop()"><i class="fa-solid fa-basket-shopping"></i><a href="#">Səbət</a></li>
+       <li onclick="order()"><i class="fa-solid fa-truck"></i><a href="#">Sifarişlərim</a></li>
+       <li onclick="bonus()"><i class="fa-solid fa-award"></i><a href="#">Bonuslarım</a></li>
+       <li><i class="fa fa-credit-card"></i><a href="#">Ödəmə üsulu</a></li>
+    </ul>
+</div>
+<div class="info-area" id="info-area">
+   <p id="textarea">
+
+   </p>
+</div>
+    </div>
+</body>
+<script>
+   function accountInfo(){
+       var text=document.getElementById("textarea");
+       text.innerHTML="Ad: İsmayıl <br><br>Soyad: Hebibov <br><br> Email: ismayilhebibov01@gmail.com<br><br>Şifrə: password1234 <br><br> Kart nömrəsi: 516373************ <br><br>Ünvan: Bakı, Azərbaycan <br><br>Zip kod: AZE1010 <br><br>  <a>Redaktə Et</a>"
+   }
+    function shop(){
+var text=document.getElementById("textarea");
+text.innerHTML="<h2>Səbətdə məhsul yoxdur!</h2> "+" <a>Məhsul əlavə et</a>"
+    }
+    function order(){
+        var text=document.getElementById("textarea");
+text.innerHTML="<h2>Aktiv sifarişiniz yoxdur!</h2> "+" <a>Sifaris et</a> "
+    }
+    function bonus(){
+var text=document.getElementById("textarea");
+text.innerHTML="<h2>Balansınızda 00.0 &#8916 Bonus Var</h2> "+" <a>İstifadə Et</a> "+" <p>Hər aldığınız məhsul dəyərinin 0.50 % balansınıza bonus olaraq yüklənir<br>Balansınız minimum 100 Azn olduğda bonusdan istifadə edə bilərsiniz</p>"
+    }
+</script>
+</html>

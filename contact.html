@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="ecommerce.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script script="ecommerce.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+          <h2>TechnoMart</h2>
+            <i class="fa-solid fa-cart-plus" id="cart"></i>
+            <i class="fas fa-search" onclick="openSearch()"></i>
+            <i class="fas fa-bars" id="open" onclick="openMenu()"></i>
+        </div>
+        <div class="search-box">
+            <input type="search" placeholder="Məhsul axtar" class="search" id="search">
+        </div>
+    </header>
+    <div class="nav">
+        <ul id="menu">
+            <li><a href="#">Ana səhifə</a></li>
+            <li><a href="#">Məişət Texnikası</li>
+            <li><a href="smartphones.html">Smartfonlar</li>
+            <li><a href="#">Kompuyterlər </li>
+            <li><a href="acsessories.html">Aksessuarlar</li>
+            <li><a href="#">Əlaqə</a></li>
+            <li><a href="about.html">Haqqımızda</a></li>
+            <li><a href="login.html">Hesab</a></li>
+        </ul>
+        </div>
+      <section class="contact-page">
+          <div class="contact-container">
+              <div class="contact-box"><i class="fa fa-envelope"></i>E-mail ünvanımıza yazın
+            <div class="email-contact">
+                <input type="text" placeholder="Adınız">
+                <input type="text" placeholder="Soyadınız">
+                <input type="text" placeholder="E-mail">
+                <textarea placeholder="Mesajınız"></textarea>
+                <span id="send" onclick="sendmsj()">Göndər<i class="fas fa-check" class="checkbtn" id="checkbtn"></i></span>
+            </div></div>
+          </div>
+      </section>
+      <div class="map-container">
+          <h3>Xəritədə biz</h3>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48625.60582523336!2d49.77600605509767!3d40.3844681682866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d8c33c62a3f%3A0x77807ca915edd570!2zWWFzYW1hbCwgQmFrw7w!5e0!3m2!1str!2s!4v1650055490423!5m2!1str!2s"  referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+      <footer class="footer2">
+        <div class="footer-container2">
+            <div>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Sifarişlərim</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Sifariş tarixçəsi</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">İstək siyahısı</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Xəbər bülleteni</a></li>
+            </div>
+            <div>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Haqqımızda</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">İstifadə şərtləri</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Çatdırılma</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Mediada biz</a></li>
+            </div>
+            <div>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Kampaniyalar</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Brendlər</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Filiallar</a></li>
+                <li><i class="fas fa-angle-double-right"></i><a href="#">Servis</a></li>
+            </div>
+                <div class="bankcards">
+                    <div><img src="kartlar/birkart.png"></div>
+                    <div><img src="kartlar/tamkart1.png"></div>
+                    <div><img src="kartlar/bolkart1.png"></div>
+                    <div><img src="kartlar/worldcard1.png"></div>
+                </div>
+            </div>
+        </div>
+        <div class="social-container">
+            <div>
+                <a href="#" style="background:rgb(255, 0, 106)"><i class="fab fa-instagram"></i></a>
+                <a href="#" style="background:blue;"><i class="fab fa-facebook"></i></a>
+                <a href="#" style="background:rgb(0, 140, 255);"><i class="fab fa-twitter"></i></a>
+                <a href="#" style="background:rgb(0, 37, 92);"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+</footer>
+    </body>
+    <script>
+        function openMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.top == "-200%") {
+            menu.style.top = "60px";
+        } else {
+            menu.style.top = "-200%"
+        }
+    };
+    function openSearch() {
+        var search = document.getElementById("search");
+        if (search.style.display == "none") {
+            search.style.display = "block"
+        } else {
+            search.style.display = "none"
+        }
+    };
+    function sendmsj(){
+        var sendbtn=document.getElementById("send");
+        sendbtn.textContent="Göndərildi";
+        sendbtn.style.background="green";
+    }
+    </script>

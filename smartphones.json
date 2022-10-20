@@ -1,0 +1,140 @@
+[
+    {
+        "id":26,
+        "product":"Iphone 12 Pro",
+        "price":"2100AZN",
+        "image":"smartphones/iphone12pro.jpg"
+    },
+    {
+        "id":27,
+        "product":"Iphone 12 Pro Max",
+        "price":"2500AZN",
+        "image":"smartphones/iphone12promax.jpg"
+    },
+    {
+        "id":28,
+        "product":"Iphone 12",
+        "price":"1900AZN",
+        "image":"smartphones/iphone12.jpg"
+    },
+    {
+        "id":29,
+        "product":"Galaxy A03",
+        "price":"250AZN",
+        "image":"smartphones/galaxya03.jpg"
+    },
+    {
+        "id":30,
+        "product":"Galaxy A13",
+        "price":"350AZN",
+        "image":"smartphones/galaxya13.jpg"
+    },
+    {
+        "id":31,
+        "product":"Samsung A33",
+        "price":"460AZN",
+        "image":"smartphones/galaxya33.jpg"
+    },
+    {
+        "id":32,
+        "product":"Samsung A53",
+        "price":"590AZN",
+        "image":"smartphones/galaxya53.jpg"
+    },
+    {
+        "id":33,
+        "product":"Samsung A73",
+        "price":"670AZN",
+        "image":"smartphones/galaxya73.jpg"
+    },
+    {
+        "id":34,
+        "product":"Samsung F42",
+        "price":"399AZN",
+        "image":"smartphones/galaxyf42.jpg"
+    },
+    {
+        "id":35,
+        "product":"Iphone 11",
+        "price":"1400AZN",
+        "image":"smartphones/iphone11.jpg"
+    },
+    {
+        "id":36,
+        "product":"Iphone 11 Pro",
+        "price":"1600AZN",
+        "image":"smartphones/iphone11pro.jpg"
+    },
+    {
+        "id":37,
+        "product":"Galaxy Z Fold",
+        "price":"1500AZN",
+        "image":"smartphones/galaxyzfold.jpg"
+    },
+    {
+        "id":38,
+        "product":"Iphone 13 Pro",
+        "price":"3500AZN",
+        "image":"smartphones/iphone13pro.jpg"
+    },
+    {
+        "id":39,
+        "product":"Iphone 13 Pro Max",
+        "price":"4000AZN",
+        "image":"smartphones/iphone13promax.jpg"
+    },
+    {
+        "id":40,
+        "product":"Iphone 13",
+        "price":"3300AZN",
+        "image":"smartphones/iphone13.jpg"
+    },
+    {
+        "id":41,
+        "product":"Redmi Note 11 Qara",
+        "price":"599AZN",
+        "image":"smartphones/xiaominote11.jpg"
+    },
+    {
+        "id":42,
+        "product":"Redmi Note 11 Ağ",
+        "price":"599AZN",
+        "image":"smartphones/redminote11.jpg"
+    },
+    {
+        "id":43,
+        "product":"Poco M4",
+        "price":"499AZN",
+        "image":"smartphones/pocom4.jpg"
+    },
+    {
+        "id":44,
+        "product":"Poco C31",
+        "price":"3850AZN",
+        "image":"smartphones/pococ31.jpg"
+    },
+    {
+        "id":44,
+        "product":"Redmi 10",
+        "price":"529AZN",
+        "image":"smartphones/redmi10.jpg"
+    },
+    {
+        "id":45,
+        "product":"Redmi 9",
+        "price":"429AZN",
+        "image":"smartphones/redmi9.jpg"
+    },
+    {
+        "id":46,
+        "product":"Redmi K50",
+        "price":"400AZN",
+        "image":"smartphones/redmik50.jpg"
+    },
+    {
+        "id":47,
+        "product":"Redmi 9i",
+        "price":"449AZN",
+        "image":"smartphones/redmi9i.jpg"
+    }
+]

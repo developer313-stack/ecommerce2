@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="ecommerce.css">
+</head>
+<body id="login">
+    <div class="login-container">
+        <div>
+           <div class="register">
+            <h3 onclick="signIn()">Giriş</h3> <h3 onclick="signUp()">Qeydiyyat</h3>
+            <div class="underline" id="underline"></div>
+           </div>
+        <div class="sign-in" id="sign-in">
+<input type="text" id="user" placeholder="İstifadəçi adı" minlength="4"><br>
+<input type="text" id="password"  placeholder="Şifrə" minlength="8"><br>
+<br>
+<a href="#" class="enter" id="loginPage" onclick="enter()">Daxil ol</a>
+<a href="#" class="recovery">Şifrəni unutmusan? Bərpa et</a>
+</div>
+<div class="sign-up" id="sign-up">
+    <input type="text"  placeholder="Ad" required><br>
+    <input type="text"  placeholder="Soyad" required ><br>
+    <input type="text"  placeholder="E-mail" required><br>
+<input type="text"  placeholder="Şifrə" required ><br>
+<br>
+<a href="#" class="register-btn">Qeydiyyat</a>
+</div>
+</div>
+    </div>
+</body>
+<script>
+    function signUp(){
+        var signup=document.getElementById("sign-up");
+        var signin=document.getElementById("sign-in");
+        var underline=document.getElementById("underline");
+        signup.style.display="block";
+        signin.style.display="none";
+        underline.style.width="110px";
+        underline.style.marginLeft="80px"
+    }
+    function signIn(){
+        var signup=document.getElementById("sign-up");
+        var signin=document.getElementById("sign-in");
+        var underline=document.getElementById("underline");
+        signup.style.display="none";
+        signin.style.display="block"
+        underline.style.width="60px";
+        underline.style.marginLeft="-90px";
+    }
+    function enter(){
+        var user=document.getElementById("user").value;
+        var password=document.getElementById("password").value;
+        var username="admin";
+        var userpass="admin1234";
+        var login=document.getElementById("loginPage");
+        if(user==username && password==userpass){
+            login.setAttribute("href","accoubnt.html")
+        }
+    }
+</script>
+</html>

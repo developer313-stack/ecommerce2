@@ -1,0 +1,62 @@
+[
+    {
+        "id":15,
+        "name":"Iphone 12 128GB",
+        "prices":"1500 AZN",
+        "picture":"Products/product1.jpg"
+    },
+    {
+        "id":16,
+        "name":"Iphone 12 64GB",
+        "prices":"1300 AZN",
+        "picture":"Products/product2.jpg"
+    },
+    {
+        "id":17,
+        "name":"Samsung A51",
+        "prices":"700 AZN",
+        "picture":"Products/product3.jpg"
+    },
+    {
+        "id":18,
+        "name":"Samsung Band",
+        "prices":"80 AZN",
+        "picture":"Products/samsungband.jpg"
+    },
+    {
+        "id":19,
+        "name":"Honor 64GB",
+        "prices":"500 AZN",
+        "picture":"Products/product4.jpg"
+    },
+    {
+        "id":20,
+        "name":"Sony Smart Tv",
+        "prices":"1300 AZN",
+        "picture":"Products/product5.jpg"
+    },
+    {
+        "id":21,
+        "name":"Philips Smart TV",
+        "prices":"1000 AZN",
+        "picture":"Products/product6.jpg"
+    },
+    {
+        "id":22,
+        "name":"Kamera",
+        "prices":"150 AZN",
+        "picture":"Products/product7.jpg"
+    },
+    {
+        "id":23,
+        "name":"Adapter",
+        "prices":"15 AZN",
+        "picture":"Products/product8.jpg"
+    },
+    {
+        "id":24,
+        "name":"Usb",
+        "prices":"10 AZN",
+        "picture":"Products/usbcable.jpg"
+    }
+]

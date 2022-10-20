@@ -1,0 +1,21 @@
+[
+    {
+        "product":"Aplle watch",
+        "price":"950 AZN",
+        "date":"08.04.2021",
+        "color":"black"
+    },
+    {
+        "product":"Samsung A52",
+        "price":"750 AZN",
+        "date":"10.20.2021",
+        "color":"black"
+    },
+    {
+        "product":"Klaviyatura",
+        "price":"50 AZN",
+        "date":"12.12.2021",
+        "color":"black"
+    }
+
+]

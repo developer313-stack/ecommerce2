@@ -1,0 +1,112 @@
+[
+    {
+        "product":"HP Notebook 86Xp",
+        "price":"1500 AZN",
+        "image":"notebooks/note1.jpg"
+    },
+    {
+        "product":"Toshiba Notebook",
+        "price":"1300 AZN",
+        "image":"notebooks/note2.jpg"
+    },
+    {
+        "product":"Asus 64Xp Notebook",
+        "price":"700 AZN",
+        "image":"notebooks/note3.jpg"
+    },
+    {
+        "product":"Samsung Kq600",
+        "price":"80 AZN",
+        "image":"notebooks/note4.jpg"
+    },
+    {
+        "product":"Hp T900",
+        "price":"500 AZN",
+        "image":"notebooks/note5.jpg"
+    },
+    {
+        "product":"Grundig E212",
+        "price":"1300 AZN",
+        "image":"notebooks/note6.jpg"
+    },
+    {
+        "product":"Toshiba C607",
+        "price":"1000 AZN",
+        "image":"notebooks/note7.jpg"
+    },
+    {
+        "product":"HP Z700",
+        "price":"150 AZN",
+        "image":"notebooks/note8.jpg"
+    },
+    {
+        "product":"EQ Monitor 4K",
+        "price":"1500 AZN",
+        "image":"notebooks/note9.jpg"
+    },
+    {
+        "product":"Asus Notebook",
+        "price":"1049 AZN",
+        "image":"notebooks/note10.jpg"
+    },
+    {
+        "product":"Asus Notebook",
+        "price":"850 AZN",
+        "image":"notebooks/note11.jpg"
+    },
+    {
+        "product":"8K Monitor",
+        "price":"2000 AZN",
+        "image":"notebooks/note12.jpg"
+    },
+    {
+        "product":"Monster Monitor 4K",
+        "price":"1200 AZN",
+        "image":"notebooks/note13.jpg"
+    },
+    {
+        "product":"Dell Oyun Monitoru",
+        "price":"1799 AZN",
+        "image":"notebooks/note14.jpg"
+    },
+    {
+        "product":"Dell K700",
+        "price":"10 AZN",
+        "image":"notebooks/note15.jpg"
+    },
+    {
+        "product":"Faroo Notebook",
+        "price":"650 AZN",
+        "image":"notebooks/note16.jpg"
+    },
+    {
+        "product":"Samsung TP877",
+        "price":"1600 AZN",
+        "image":"notebooks/note17.jpg"
+    },
+    {
+        "product":"Samsung C900",
+        "price":"10 AZN",
+        "image":"notebooks/note18.jpg"
+    },
+    {
+        "product":"Toshiba DL300",
+        "price":"1199 AZN",
+        "image":"notebooks/note19.jpg"
+    },
+    {
+        "product":"Casper Notebook",
+        "price":"1099 AZN",
+        "image":"notebooks/note20.jpg"
+    },
+    {
+        "product":"Grundig A121",
+        "price":"949 AZN",
+        "image":"notebooks/note21.jpg"
+    },
+    {
+        "product":"Casper A500",
+        "price":"1070 AZN",
+        "image":"notebooks/note22.jpg"
+    }
+]

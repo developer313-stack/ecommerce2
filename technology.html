@@ -1,0 +1,126 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Məişəttexnikaları</title>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css">
+        <link rel="stylesheet" href="ecommerce.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+              <h2>TechnoMart</h2>
+                <i class="fa-solid fa-cart-plus" id="cart"></i>
+                <i class="fas fa-search" onclick="openSearch()"></i>
+                <i class="fas fa-bars" id="open" onclick="openMenu()"></i>
+            </div>
+            <div class="search-box">
+                <input type="search" placeholder="Məhsul axtar" class="search" id="search">
+            </div>
+        </header>
+        <div class="nav">
+            <ul id="menu">
+                <li><a href="ecommerce.html">Ana səhifə</a></li>
+                <li><a href="technology.html">Məişət Texnikası</li>
+                <li><a href="smartphones.html">Smartfonlar</li>
+                <li><a href="notebooks.html">Kompuyterlər </li>
+                <li><a href="acsessories.html">Aksessuarlar</li>
+                <li><a href="contact.html">Əlaqə</a></li>
+                <li><a href="about3.html">Haqqımızda</a></li>
+                <li><a href="login.html">Hesab</a></li>
+            </ul>
+        </div>
+        <section class="smartphones">
+           <h2>Məişət texnikaları <span class="price-number" id="price-number">40</span></h2>
+<div class="phone-products" id="products-table">
+
+</div>
+        </section>
+        <footer class="footer2">
+            <div class="footer-container2">
+                <div>
+                    <li><i class="fas fa-angle-double-right"></i><a>Sifarişlərim</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>Sifariş tarixçəsi</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>İstək siyahısı</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>Xəbər bülleteni</a></li>
+                </div>
+                <div>
+                    <li><i class="fas fa-angle-double-right"></i><a>Haqqımızda</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>İstifadə şərtləri</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>Çatdırılma</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>Mediada biz</a></li>
+                </div>
+                <div>
+                    <li><i class="fas fa-angle-double-right"></i><a>Kampaniyalar</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>Brendlər</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>Filiallar</a></li>
+                    <li><i class="fas fa-angle-double-right"></i><a>Servis</a></li>
+                </div>
+                <div class="bankcards">
+                    <div><img src="kartlar/birkart.png"></div>
+                    <div><img src="kartlar/tamkart1.png"></div>
+                    <div><img src="kartlar/bolkart1.png"></div>
+                    <div><img src="kartlar/albali.png"></div>
+                </div>
+                </div>
+            </div>
+            <div class="social-container">
+                <div>
+                    <a style="background:rgb(255, 0, 106)"><i class="fab fa-instagram"></i></a>
+                    <a style="background:blue;"><i class="fab fa-facebook"></i></a>
+                    <a style="background:rgb(0, 140, 255);"><i class="fab fa-twitter"></i></a>
+                    <a style="background:rgb(0, 37, 92);"><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+    <h4>Copyright @ 2022 "Tecnomart Electronic" All rights reserved</h4>
+    <h4>Created by ismayıl</h4>
+        </footer>
+    <script>
+        function openMenu() {
+        var menu = document.getElementById("menu");
+        if (menu.style.top == "-200%") {
+            menu.style.top = "60px";
+        } else {
+            menu.style.top = "-200%"
+        }
+    };
+    function openSearch() {
+        var search = document.getElementById("search");
+        if (search.style.display == "none") {
+            search.style.display = "block"
+        } else {
+            search.style.display = "none"
+        }
+    };
+        var productsTable=document.getElementById("products-table");
+        var priceNumber=document.getElementById("price-number");
+        fetch("technology.json")
+        .then(function(response){
+            return response.json()
+        })
+        .then(function(data){
+            for(i=0;i<=data.length;i++){
+                productsTable.innerHTML+=`
+        <div class="product-box">
+        <div class="product-img">
+            <i class="fa-regular fa-heart"></i>
+            <img src="${data[i].image}">
+        </div>
+        <div class="product-info">
+            <h4>${data[i].product}</h4>
+            <p class="price">${data[i].price}</p>
+        </div>
+        <span class="addbtn">Səbətə At</span>
+     </div>
+     </div>
+        `
+        priceNumber.innerHTML=data.length;
+            }
+        })
+    </script>
+</html>

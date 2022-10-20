@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="other.js"></script>
+    <link rel="stylesheet" href="ecommerce.css">
+    <title>Document</title>
+</head>
+<header>
+    <div class="logo">
+        <h2>TechnoMart</h2>
+        <div class="icon-box">
+          <i class="fa-solid fa-cart-plus" id="cart" onclick="opencartpage()"></i>
+          <i class="fa-regular fa-bookmark" onclick="openList()"></i>
+          <i class="fas fa-search" onclick="openSearch()"></i>
+          <i class="fas fa-bars" id="open" onclick="openMenu()"></i>
+        </div>
+      </div>
+      <div class="search-box">
+          <input type="search" onclick="find()" placeholder="Məhsul axtar" class="search"  id="search">
+      </div>
+  </header>
+  <div class="addtocart" id="sepet">
+    <div class="cartheader" id="cartheader">
+      <h6>Səbətim</h6>
+    </div>
+    <div class="basket-container" id="basket-container">
+  
+
+  </div>
+      </div>
+  <div class="nav">
+      <ul id="menu">
+          <li><a href="#">Ana səhifə</a></li>
+          <li><a href="technology.html">Məişət Texnikası</li>
+          <li><a href="smartphones.html">Smartfonlar</li>
+          <li><a href="notebooks.html">Kompuyterlər </li>
+          <li><a href="acsessories.html">Aksessuarlar</li>
+          <li><a href="contact.html">Əlaqə</a></li>
+          <li><a href="about3.html">Haqqımızda</a></li>
+          <li><a href="login.html">Hesab</a></li>
+      </ul>
+  </div>
+</header>
+<body>
+    <div id="detail">
+       <div id="product-img">
+           <div class="itemm-img">
+        <img id="item-img" src="">
+        </div>
+       </div>
+<div id="item-box">
+    <h1 id="item-name"></h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed numquam quaerat ducimus labore obcaecati quo corporis tempore qui ullam fugiat saepe dolore totam atque similique architecto deserunt magni, dolorum laboriosam!</p>
+<h5 id="item-price"></h5>
+<label id="single-label">Məhsul sayı:</label>
+<input type="number" id="quantity" min="1" value="1" onchange="refreshPrice()">
+<p id="result">Toplam:</p>
+<a href="adressinfo.html" id="buy-button" >Indi Al</a>
+</div>
+    </div>
+</body>
+<footer class="footer2">
+    <div class="footer-container2">
+        <div>
+            <li><i class="fas fa-angle-double-right"></i><a>Sifarişlərim</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>Sifariş tarixçəsi</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>İstək siyahısı</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>Xəbər bülleteni</a></li>
+        </div>
+        <div>
+            <li><i class="fas fa-angle-double-right"></i><a>Haqqımızda</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>İstifadə şərtləri</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>Çatdırılma</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>Mediada biz</a></li>
+        </div>
+        <div>
+            <li><i class="fas fa-angle-double-right"></i><a>Kampaniyalar</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>Brendlər</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>Filiallar</a></li>
+            <li><i class="fas fa-angle-double-right"></i><a>Servis</a></li>
+        </div>
+        <div class="bankcards">
+            <div><img src="kartlar/birkart.png"></div>
+            <div><img src="kartlar/tamkart1.png"></div>
+            <div><img src="kartlar/bolkart1.png"></div>
+            <div><img src="kartlar/albali.png"></div>
+        </div>
+        </div>
+    </div>
+    <div class="social-container">
+        <div>
+            <a style="background:rgb(255, 0, 106)"><i class="fab fa-instagram"></i></a>
+            <a style="background:blue;"><i class="fab fa-facebook"></i></a>
+            <a style="background:rgb(0, 140, 255);"><i class="fab fa-twitter"></i></a>
+            <a style="background:rgb(0, 37, 92);"><i class="fab fa-telegram"></i></a>
+        </div>
+    </div>
+<h4>Copyright @ 2022 "Tecnomart Electronic" All rights reserved</h4>
+<h4>Created by ismayıl</h4>
+</footer>
+<script>
+    function getFav(){
+    var data=JSON.parse(localStorage.getItem("favor",(data)))
+    var info=data[0]
+    var prod=data[1]
+    var product=JSON.parse(localStorage.getItem("favor",(product)))
+    var detailPage=document.getElementById("detail");
+    var name=document.getElementById("item-name");
+    var price=document.getElementById("item-price");
+    var img=document.getElementById("item-img");
+    var result=document.getElementById("result");
+    for(i=0;i<info.length;i++){
+        name.innerHTML=info[i].name
+        price.innerHTML="Qiymət: "+info[i].prices
+        img.src=info[i].picture
+        result.innerHTML="Toplam: "+data.item[i].prices
+
+    }
+    for(i=0;i<prod.length;i++){
+        name.innerHTML=prod[i].name
+        price.innerHTML="Qiymət: "+prod[i].prices
+        img.src=prod[i].picture
+        result.innerHTML="Toplam: "+prod[i].prices
+    }
+}
+document.addEventListener("DOMContentLoaded",getFav);
+
+function refreshPrice(){
+    var itemPrice=document.getElementById("item-price").textContent;
+    var sum=parseFloat(itemPrice.replace("Qiymət:","","AZN"))
+    var result=document.getElementById("result");
+var qunatity=document.getElementById("quantity").value;
+var num=parseFloat(qunatity)
+result.innerHTML="Toplam: "+num*sum+ "AZN";
+if(qunatity==0){
+    sum*1;
+    result.innerHTML="Toplam: "+sum+ "AZN";
+}
+}
+</script>
+</html>

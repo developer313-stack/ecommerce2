@@ -1,0 +1,93 @@
+[
+    {
+        "product":"Soyuducu",
+        "price":"800 AZN",
+        "image":"technology/soyuducu.jpeg"
+    },
+    {
+        "product":"Samsung Soyuducu",
+        "price":"1300 AZN",
+        "image":"technology/soyuducu2.jpeg"
+    },
+    {
+        "product":"Tozsoran",
+        "price":"300 AZN",
+        "image":"technology/tozsoran.jpeg"
+    },
+    {
+        "product":"Kondisioner",
+        "price":"350 AZN",
+        "image":"technology/kondisioner.jpeg"
+    },
+    {
+        "product":"Areston",
+        "price":"200 AZN",
+        "image":"technology/areston2.jpeg"
+    },
+    {
+        "product":"Robot Tozsoran",
+        "price":"490 AZN",
+        "image":"technology/tozsoran2.jpeg"
+    },
+    {
+        "product":"Sokçəkən",
+        "price":"250 AZN",
+        "image":"technology/sokceken.jpeg"
+    },
+    {
+        "product":"Ütü",
+        "price":"150 AZN",
+        "image":"technology/utu2.jpeg"
+    },
+    {
+        "product":"Kofe Aparatı",
+        "price":"1000 AZN",
+        "image":"technology/kofeaparati2.jpeg"
+    },
+    {
+        "product":"Mikrodalğalı Soba",
+        "price":"399 AZN",
+        "image":"technology/mikrodalga2.jpeg"
+    },
+    {
+        "product":"Samsung Mikrodalğalı",
+        "price":"490 AZN",
+        "image":"technology/mikrodalga3.jpeg"
+    },
+    {
+        "product":"Soba",
+        "price":"269 AZN",
+        "image":"technology/mikrodalga.jpg"
+    },
+    {
+        "product":"Soyuducu Dnepr",
+        "price":"450 AZN",
+        "image":"technology/dnepr.jpg"
+    },
+    {
+        "product":"Kondisioner 90kv",
+        "price":"799 AZN",
+        "image":"technology/kondisioner3.jpeg"
+    },
+    {
+        "product":"Tozsoran",
+        "price":"300 AZN",
+        "image":"technology/tozsoran4.jpg"
+    },
+    {
+        "product":"Paltaryuyan",
+        "price":"450 AZN",
+        "image":"technology/paltaryuyan.jpg"
+    },
+    {
+        "product":"Samsung Paltaryuyan",
+        "price":"500 AZN",
+        "image":"technology/paltaryuyan.jpg"
+    },
+    {
+        "product":"Buxar Ütüsü",
+        "price":"250 AZN",
+        "image":"technology/utu.jpeg"
+    }
+]
+    

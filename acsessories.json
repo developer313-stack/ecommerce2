@@ -1,0 +1,117 @@
+[
+    {
+        "product":"Apple Watch",
+        "price":"1100 AZN",
+        "image":"acsessories/applewatch.jpg"
+    },
+    {
+        "product":"Xiaomi Airpod",
+        "price":"130 AZN",
+        "image":"acsessories/airpod2.jpg"
+    },
+    {
+        "product":"Samsung Airpod",
+        "price":"170 AZN",
+        "image":"acsessories/airpod.jpeg"
+    },
+    {
+        "product":"Qulaqlıq",
+        "price":"170 AZN",
+        "image":"acsessories/qulaqlig.jpg"
+    },
+    {
+        "product":"Usb Kabel",
+        "price":"5 AZN",
+        "image":"acsessories/usb.jpg"
+    },
+    {
+        "product":"Usb Port",
+        "price":"10 AZN",
+        "image":"acsessories/usbport.jpg"
+    },
+    {
+        "product":"Sd kart 2GB",
+        "price":"5 AZN",
+        "image":"acsessories/sdkart.jpeg"
+    },
+    {
+        "product":"Samsung Adapter",
+        "price":"17 AZN",
+        "image":"acsessories/samsungadapter.jpg"
+    },
+    {
+        "product":"Samsung Band",
+        "price":"135 AZN",
+        "image":"acsessories/samsungband.jpeg"
+    },
+    {
+        "product":"Samsung S20 Kabro",
+        "price":"6 AZN",
+        "image":"acsessories/s20kabro.jpg"
+    },
+    {
+        "product":"Powerbank 10000MaH",
+        "price":"25 AZN",
+        "image":"acsessories/powerbank.jpg"
+    },
+    {
+        "product":"Iphone Kabro",
+        "price":"6 AZN",
+        "image":"acsessories/iphonekabro.jpeg"
+    },
+    {
+        "product":"Notebook Adapteri",
+        "price":"30 AZN",
+        "image":"acsessories/notebookadapter.jpg"
+    },
+    {
+        "product":"Kalonka",
+        "price":"15 AZN",
+        "image":"acsessories/kalonka.jpg"
+    },
+    {
+        "product":"Iphone Antiudar",
+        "price":"8 AZN",
+        "image":"acsessories/antiudar2.jpg"
+    },
+    {
+        "product":"Notebook Çantası",
+        "price":"17 AZN",
+        "image":"acsessories/canta.jpg"
+    },
+    {
+        "product":"Bluetooth Qulaqlıq",
+        "price":"25 AZN",
+        "image":"acsessories/bluetoothqulaq.jpg"
+    },
+    {
+        "product":"Double Usb",
+        "price":"6 AZN",
+        "image":"acsessories/doubleusb.jpg"
+    },
+    {
+        "product":"Usb Splitter",
+        "price":"10 AZN",
+        "image":"acsessories/usbsplitter.jpg"
+    },
+    {
+        "product":"Flaşkart 32GB",
+        "price":"20 AZN",
+        "image":"acsessories/flaskart.jpeg"
+    },
+    {
+        "product":"Flaşkart 16GB",
+        "price":"15 AZN",
+        "image":"acsessories/flaskart2.jpeg"
+    },
+    {
+        "product":"Mi Band",
+        "price":"100 AZN",
+        "image":"acsessories/xiaomiband.jpg"
+    },
+    {
+        "product":"HP Mouse",
+        "price":"35 AZN",
+        "image":"acsessories/mouse.jpg"
+    }
+]

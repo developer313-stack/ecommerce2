@@ -1,0 +1,100 @@
+[
+    {
+        "id":1,
+        "name":"Canon Kamera",
+        "prices":"500 AZN",
+        "picture":"most/kamera.jpeg",
+        "stock":"40"
+    },
+    {
+        "id":2,
+        "name":"T-plink modem",
+        "prices":"35 AZN",
+        "picture":"most/modem.jpeg",
+        "stock":11
+    },
+    {
+        "id":3,
+        "name":"Masaüstü",
+        "prices":"800 AZN",
+        "picture":"most/pcnotbuk.jpeg",
+        "stock":10
+    },
+    {
+        "id":4,
+        "name":"Sistem bloku",
+        "prices":"150 AZN",
+        "picture":"most/sistem.jpeg",
+        "stock":39
+    },
+    {
+        "id":5,
+        "name":"Sony Smart Tv",
+        "prices":"1000 AZN",
+        "picture":"most/smart.jpeg",
+        "stock":4
+    },
+    {
+        "id":6,
+        "name":"Xiaomi Poco",
+        "prices":"800 AZN",
+        "picture":"most/xiaomipoco.webp",
+        "stock":8
+    },
+    {
+        "id":7,
+        "name":"Samsung S9",
+        "prices":"850 AZN",
+        "picture":"most/samsungs9.jpg",
+        "stock":30
+    },
+    {
+        "id":8,
+        "name":"Bosch Soyuducu",
+        "prices":"700 AZN",
+        "picture":"most/soyuducu.jpeg",
+        "stock":7
+    },
+    {
+        "id":9,
+        "name":"Android Tv Box",
+        "prices":"200 AZN",
+        "picture":"most/androidbox.jpeg",
+        "stock":21
+    },
+    {
+        "id":10,
+        "name":"Hp Mouse",
+        "prices":"35 AZN",
+        "picture":"most/mouse.jpeg",
+        "stock":9
+    },
+    {
+        "id":11,
+        "name":"Powerbank",
+        "prices":"50 AZN",
+        "picture":"most/powerbank.jpg",
+        "stock":33
+    },
+    {
+        "id":12,
+        "name":"Adapter",
+        "prices":"15 AZN",
+        "picture":"most/usbport.jpg",
+        "stock":200
+    },
+    {
+        "id":13,
+        "name":"Klaviyatura",
+        "prices":"50 AZN",
+        "picture":"most/klavye.jpeg",
+        "stock":32
+    },
+    {
+        "id":14,
+        "name":"Samsung USB",
+        "prices":"10 AZN",
+        "picture":"most/white.jpg",
+        "stock":56
+    }
+]

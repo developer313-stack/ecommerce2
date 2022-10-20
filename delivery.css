@@ -1,0 +1,11 @@
+.footer-content{
+    display:flex;
+    flex-wrap:wrap;
+}
+.footer-content>div{
+    flex-shrink:0;
+}
+.footer-content>div>ul{
+    display:block;
+    color:white;
+}
